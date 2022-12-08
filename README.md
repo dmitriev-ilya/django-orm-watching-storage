@@ -37,10 +37,12 @@ DATABASE_PASSWORD=<DATABASE_PASSWORD>
 DATABASE_HOST=<DATABASE_HOST>
 DATABASE_USER=<DATABASE_USER>
 DATABASE_PORT=<DATABASE_PORT>
+DATABASE_ENGINE=<DATABASE_ENGINE>
 SECRET_KEY=<SECRET_KEY>
 DEBUG=<bool>
+ALLOWED_HOSTS=<list of ALLOWED_HOSTS>
 ```
-Где `DATABASE_NAME`, `DATABASE_PASSWORD`, `DATABASE_HOST`, `DATABASE_USER`, `DATABASE_PORT` - данные для подключения к базе данных, `SECRET_KEY` - ключ доступа к сайту, `DEBUG` - включение и отключение дебаггинга на сайте, типа `bool`.
+Где `DATABASE_NAME`, `DATABASE_PASSWORD`, `DATABASE_HOST`, `DATABASE_USER`, `DATABASE_PORT`, `DATABASE_ENGINE` - данные для подключения к базе данных, `SECRET_KEY` - ключ доступа к сайту, `DEBUG` - включение и отключение дебаггинга на сайте, типа `bool`, `ALLOWED_HOSTS` - список доступных доменов.
 
 ### Как запустить
 
